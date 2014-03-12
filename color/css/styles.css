@@ -1,24 +1,37 @@
 body {
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 16px;
+	font-align: justify;
 }
 
 
-h1, h2 {
-	fint-size: 1.5em;
-	color: #ee3e80
+h1 {
+	font-size: 2.0em;
+	color: black;
+}
+
+h2 {
+	font-size: 1.75em;
+	color: grey;
+
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size:1.25em;
 }
 
 p {
-	
-	color: #665544
+	color: #black;
 }	
 
 strong {
-
-	color: green;
+	color: red;
 }
 
 em {
-	color: violet;
+	color: grey;
 }
