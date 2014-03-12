@@ -35,3 +35,7 @@ strong {
 em {
 	color: grey;
 }
+
+.score {
+	text-align: center;
+}
