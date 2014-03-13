@@ -5,15 +5,18 @@ body {
 	background-color: hsl(120,73.4%,74.9%);
 	font-family: "Revalia", Arial, Verdana, sans-serif;
 	font-size: 13.5px;
+	height: 80%;
+	width: 80%;
 }
 /* I would have combined each of the headers into one, however, different font-sizes */
 h1 {
 	background-color: forestgreen;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Audiowide', Arial, Verdana, sans-serif;
 	font-size: 3.0em;
 	height: 1em;
 	color: white;
 	text-align: center;
+	border-style: outset;
 }
 
 /* Info going to be used for next assignment */
@@ -30,6 +33,7 @@ h2 {
 	font-size: 2.75em;
 	color: #2e2e2e;
 	text-align: center;	
+	border-style: inset;
 }
 
 h3 {
@@ -38,6 +42,7 @@ h3 {
 	font-size: 2.5em;
 	color: rgba(46, 46, 46, 1);
 	text-align: center;
+	border-style: inset;
 }
 
 h4 {
@@ -46,6 +51,7 @@ h4 {
 	font-size:2.25em;
 	color: rgb(46,46,46);
 	text-align: center;
+	border-style: inset;
 }
 
 p {
@@ -54,6 +60,7 @@ p {
 }
 
 ol {
+	list-style-type:
 	color: rgb(25,25,112);
 }
 
@@ -106,4 +113,9 @@ em {
 
 #wikilink {
 	text-align: center;
+}
+
+.events {
+	display: inline;
+	margin-right: 100px;
 }
