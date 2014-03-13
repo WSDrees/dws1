@@ -1,34 +1,49 @@
+/* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+
 body {
 /* Colors found from http://meyerweb.com/eric/css/colors/ */
 	background-color: hsl(120,73.4%,74.9%);
-	font-family: Arial, Verdana, sans-serif;
-	font-size: 16px;
+	font-family: "Revalia", Arial, Verdana, sans-serif;
+	font-size: 13.5px;
 }
 /* I would have combined each of the headers into one, however, different font-sizes */
 h1 {
 	background-color: forestgreen;
-	font-size: 2.0em;
+	font-family: 'Audiowide', cursive;
+	font-size: 3.0em;
+	height: 1em;
 	color: white;
 	text-align: center;
 }
 
+/* Info going to be used for next assignment */
+/* 
+#contentinfo {
+	width: 50%;
+	margin: auto;
+}
+ */
+
 h2 {
 	background-color: forestgreen;
-	font-size: 1.75em;
+	font-family: 'Diplomata', cursive;
+	font-size: 2.75em;
 	color: #2e2e2e;
 	text-align: center;	
 }
 
 h3 {
 	background-color: forestgreen;
-	font-size: 1.5em;
+	font-family: 'Diplomata', cursive;
+	font-size: 2.5em;
 	color: rgba(46, 46, 46, 1);
 	text-align: center;
 }
 
 h4 {
 	background-color: forestgreen;
-	font-size:1.25em;
+	font-family: 'Diplomata', cursive;
+	font-size:2.25em;
 	color: rgb(46,46,46);
 	text-align: center;
 }
@@ -45,6 +60,17 @@ ol {
 ul{
 	color: rgb(25,25,112);
 }
+
+table {
+	width: 800px;
+}
+
+th {
+	background-color: hsl(210,12.6%,50.2%);
+	letter-spacing: 0.1em;
+	color: white;
+}
+
 /* link */
 a:link {
 	color: rgb(25,25,112);
@@ -57,7 +83,8 @@ a:visited {
 /* When hovering over links */
 a:hover {
 	color: black;
-	text-decoration: none;
+	text-decoration: underline;
+	text-shadow: 1px 1px 0px #000000;
 }
 /* active link */
 a:active {
