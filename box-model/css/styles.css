@@ -1,8 +1,7 @@
-/* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
-/* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
-
 body {
 /* Colors found from http://meyerweb.com/eric/css/colors/ */
+/* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+/* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
 	background-color: rgb(96.1%,96.1%,96.1%);
 }
 
@@ -71,7 +70,7 @@ h4 {
 
 p {
 	text-align: justify;
-	color: #black;
+	color: black;
 }
 
 ol {
@@ -106,7 +105,7 @@ a:link {
 
 /* Visited link */
 a:visited {
-	color:;
+	color: grey;
 }
 
 /* When hovering over links */
@@ -118,7 +117,7 @@ a:hover {
 
 /* active link */
 a:active {
-	color:
+	color: red;
 	text-decoration: underline;
 }
 
