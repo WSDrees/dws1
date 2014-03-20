@@ -4,7 +4,7 @@ body {
 /* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
 
 /* Background shorthand: color | url | repeat | attachment | position */
-	background: rgb(96.1%,96.1%,96.1%) url("../images/sprites.jpg")  fixed;
+	background: rgb(96.1%,96.1%,96.1%) url("../images/golfcourse.jpg") no-repeat fixed;
 }
 
 div {
