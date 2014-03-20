@@ -4,7 +4,7 @@ body {
 /* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
 
 /* Background shorthand: color | url | repeat | attachment | position */
-	background: rgb(96.1%,96.1%,96.1%) url("../images/golfcourse.jpg") no-repeat fixed;
+	background: rgb(96.1%,96.1%,96.1%) url("../images/sprites.jpg")  fixed;
 }
 
 div {
@@ -148,10 +148,31 @@ em {
 	text-align: center;
 }
 
+/*
 .events {
-	width: 75%;
-	margin: auto;
+
+	list-style: url("../images/iconblackandwhite.png");
 }
+
+.events:hover {
+	list-style: url("../images/coloricon.png");
+}
+*/
+
+.ULIcon li{
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding:40px;
+}
+.ULIcon li:hover{
+	background-position: left 50%;
+}
+
+
+#SeeAlso li{
+	background-image:url("../images/sprites.jpg");
+}
+
 
 .eventsinline {
 	width: 75%;
