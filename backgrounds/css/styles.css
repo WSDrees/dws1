@@ -160,19 +160,22 @@ em {
 */
 
 .ULIcon li{
-	background-position:top left;
-	background-repeat:no-repeat;
-	padding:40px;
-}
-.ULIcon li:hover{
-	background-position: left 50%;
+	height:61px;
+	line-height:61px;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
+ul.ULIcon{
+padding-left:100px;
+}
 
 #SeeAlso li{
-	background-image:url("../images/sprites.jpg");
+	list-style-image:url("../images/iconblackandwhite.png");
 }
-
+#SeeAlso li:hover{
+	list-style-image:url("../images/iconcolor.png");
+}
 
 .eventsinline {
 	width: 75%;
