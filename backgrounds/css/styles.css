@@ -4,8 +4,9 @@ body {
 /* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
 
 /* Background shorthand: color | url | repeat | attachment | position */
-	background: rgb(96.1%,96.1%,96.1%) url("../images/golfcourse.jpg") no-repeat fixed left top;
-	
+	background: rgb(96.1%,96.1%,96.1%) url("../images/golfcourse.jpg") no-repeat fixed;
+}
+
 div {
 	font-family: "Revalia", Arial, Verdana, sans-serif;
 	font-size: 0.844em;
@@ -20,7 +21,7 @@ div {
 
 /* I would have combined each of the headers into one, however, different font-sizes */
 h1 {
-	background-color: forestgreen;
+	background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
 	font-family: 'Audiowide', Arial, Verdana, sans-serif;
 	font-size: 3.0em;
 	height: 1.5em;
