@@ -198,6 +198,11 @@ padding-left:100px;
 	clear: left;
 }
 
+table.courses {
+	border: 2px solid #999;
+	empty-cells: show;
+}
+
 /* 
 #outsidelinks {
 	width: 75%;
