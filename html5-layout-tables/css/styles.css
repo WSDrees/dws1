@@ -189,12 +189,19 @@ padding-left:100px;
 
 table {
 	border: 2px solid #999;
+	border-radius: 10px;
 	padding: 10px;
-	width: 800px;
+	width: 700px;
+	border-spacing: 5px 5px;
 	margin: auto auto 20px auto;
 }
 
+tr:hover {
+	background-color: #c3e6e5;
+}
+
 th {
+	padding: 10px;
 	background-color: hsl(210,12.6%,50.2%);
 	letter-spacing: 0.1em;
 	text-transform: uppercase;  
@@ -203,6 +210,8 @@ th {
 }
 
 .total {
+	border-top: 2px solid #111111;
+	padding: 7px;
 	background-color: hsl(210,12.6%,50.2%);
 	letter-spacing: 0.1em;
 	text-transform: uppercase;  
@@ -211,6 +220,7 @@ th {
 }
 
 table.courses {
+	border-radius: 10px;
 	width: 700px;
 	margin: auto auto 20px auto;
 	border: 2px solid #999;
@@ -221,6 +231,8 @@ table.courses {
 }
 
 /* 
+
+working updates
 #outsidelinks {
 	width: 75%;
 	margin: auto auto 20px auto;
