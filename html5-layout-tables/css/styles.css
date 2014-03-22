@@ -1,3 +1,7 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;
+}
+
 body {
 /* Colors found from http://meyerweb.com/eric/css/colors/ */
 /* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
