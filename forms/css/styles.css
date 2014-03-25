@@ -123,6 +123,7 @@ a:hover {
 	color: black;
 	text-decoration: underline;
 	text-shadow: 1px 1px 1px #000;
+	cursor: crosshair;
 }
 
 /* active link */
@@ -248,6 +249,15 @@ footer {
 	color: #ffffff;
 	background-color: #aeaca8;
 	height: 30px;
+}
+
+fieldset {
+	margin: auto;
+	width: 500px;
+}
+
+legend {
+	text-align: center;	
 }
 
 /* 
