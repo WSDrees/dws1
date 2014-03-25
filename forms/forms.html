@@ -12,12 +12,12 @@
 	</head>
 	
 	<body>
-	<div>
+	<div id="body">
 		<form action="" method="post">
 		<div id="login">
-			<label>Username: <input type="text" class="login" required="required" /></label>
-			<label>Password: <input type="password" class="login" required="required" /></label>
-			<input type="submit" class="login" value="Login" />
+			<label>Username: <input type="text" name="name" required="required" /></label>
+			<label>Password: <input type="password" name="password" required="required" /></label>
+			<input type="submit" name="login" value="Login" />
 		</div>
 		</form>
 		<header>
@@ -574,31 +574,36 @@ Women's major golf championship</a></p>
 				href="http://www.internationalgolffederation.org/">International Golf Federation (IGF)</a></li>
 			</ul>
 			
-			
-			<div id="rating">
+			<div id="infoform">
 			<fieldset>
 				<legend>Comments</legend>
-				<textarea name="comments">Enter your comments..</textarea>
-				<input id="10" type="radio" name="rating" value="10">
-				<label for="10">10</label>
-				<input id="9" type="radio" name="rating" value="9">
-				<label for="9">9</label>
-				<input id="8" type="radio" name="rating" value="8">
-				<label for="8">8</label>
-				<input id="7" type="radio" name="rating" value="7">
-				<label for="7">7</label>
-				<input id="6" type="radio" name="rating" value="6">
-				<label for="6">6</label>
-				<input id="5" type="radio" name="rating" value="5">
-				<label for="5">5</label>
-				<input id="4" type="radio" name="rating" value="4">
-				<label for="4">4</label>
-				<input id="3" type="radio" name="rating" value="3">
-				<label for="3">3</label>
-				<input id="2" type="radio" name="rating" value="2">
-				<label for="2">2</label>
-				<input id="1" type="radio" name="rating" value="1">
-				<label for="1">1</label>
+				<textarea placeholder="Enter your comments here... "name="comments" rows="4" cols="75"></textarea>
+				
+				
+				
+				<div class="radiobuttons">
+					<span class="rating">Rating: </span>		
+						<input id="10" type="radio" name="rating" value="10">
+						<label for="10">10</label>
+						<input id="9" type="radio" name="rating" value="9">
+						<label for="9">9</label>
+						<input id="8" type="radio" name="rating" value="8">
+						<label for="8">8</label>
+						<input id="7" type="radio" name="rating" value="7">
+						<label for="7">7</label>
+						<input id="6" type="radio" name="rating" value="6">
+						<label for="6">6</label>
+						<input id="5" type="radio" name="rating" value="5">
+						<label for="5">5</label>
+						<input id="4" type="radio" name="rating" value="4">
+						<label for="4">4</label>
+						<input id="3" type="radio" name="rating" value="3">
+						<label for="3">3</label>
+						<input id="2" type="radio" name="rating" value="2">
+						<label for="2">2</label>
+						<input id="1" type="radio" name="rating" value="1">
+						<label for="1">1</label>
+				</div>
 			</fieldset>
 			</div>
 			
