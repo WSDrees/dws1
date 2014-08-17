@@ -135,7 +135,7 @@ em {
 }
 
 /* Started setting up tables */
-.score, .name, definition, .country, .coursenum, .percent {
+.score, .name, .definition, .country, .coursenum, .percent {
 	text-align: center;
 }
 

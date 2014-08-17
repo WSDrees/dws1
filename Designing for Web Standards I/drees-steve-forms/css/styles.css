@@ -1,0 +1,306 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+	display: block;
+}
+
+body {
+/* Colors found from http://meyerweb.com/eric/css/colors/ */
+/* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+/* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
+
+/* Background shorthand: color | url | repeat | attachment | position */
+	background: rgb(96.1%,96.1%,96.1%) url("../images/golfcourse.jpg") no-repeat fixed;
+}
+
+#body {
+	font-family: "Revalia", Arial, Verdana, sans-serif;
+	font-size: 0.844em;
+	padding: 20px;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	box-shadow: inset 0 0 20px #777777;
+	border-color: silver;
+	margin-bottom: 20px;
+}
+
+nav {
+	font-family: "Revalia", Arial, Verdana, sans-serif;
+	font-size: 0.844em;
+	padding: 20px;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	box-shadow: inset 0 0 20px #777777;
+	border-color: silver;
+	margin-bottom: 20px;
+}
+
+/* I would have combined each of the headers into one, however, different font-sizes */
+h1 {
+	background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%);
+	font-family: 'Audiowide', Arial, Verdana, sans-serif;
+	font-size: 3.0em;
+	height: 1.5em;
+	color: white;
+	text-align: center;
+	border-style: outset;
+	border-color: silver silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 20px auto;
+	border-radius: 10px;
+}
+
+h2 {
+	background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);
+	font-family: 'Diplomata', cursive;
+	font-size: 2.75em;
+	color: #2e2e2e;
+	text-align: center;	
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 10px auto;
+	border-radius: 10px;
+}
+
+h3 {
+	background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%);
+	font-family: 'Diplomata', cursive;
+	font-size: 2.5em;
+	color: rgba(46, 46, 46, 1);
+	text-align: center;
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 10px auto;
+	border-radius: 10px;
+}
+
+h4 {
+	background-color: forestgreen;
+	font-family: 'Diplomata', cursive;
+	font-size: 2.25em;
+	color: rgb(46,46,46);
+	text-align: center;
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 10px auto;
+	border-radius: 10px;
+}
+
+p {
+	text-align: justify;
+	color: black;
+}
+
+ol {
+	color: #2e2e2e;
+}
+
+ul{
+	color: #2e2e2e;	
+}
+
+.bodylists {
+	text-align: justify;
+	margin: auto auto 20px auto;
+}
+
+/* link */
+a:link {
+	color: #2e2e2e;
+	text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+	color: grey;
+}
+
+/* When hovering over links */
+a:hover {
+	color: black;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px #000;
+	cursor: crosshair;
+}
+
+/* active link */
+a:active {
+	color: red;
+	text-decoration: underline;
+}
+
+em {
+	color: grey;
+}
+
+#fourball, #foursome {
+	margin: auto auto 20px auto;
+}
+
+/* Started setting up tables */
+.score, .name, definition {
+	text-align: center;
+}
+
+.article {
+	text-align: center;
+	color: #2e2e2e;
+}
+
+#wikilink {
+	text-align: center;
+}
+
+.ULIcon li{
+	height:61px;
+	line-height:61px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+ul.ULIcon{
+	padding-left:100px;
+}
+
+#SeeAlso li{
+	list-style-image:url("../images/iconblackandwhite.png");
+}
+#SeeAlso li:hover{
+	list-style-image:url("../images/iconcolor.png");
+}
+
+.eventsinline {
+	width: 75%;
+	display: inline;
+	margin-right: 20px;
+}
+
+
+.mechanics {
+	margin: auto auto 10px auto;
+	text-align: justify;
+}
+
+#contents {
+	margin: auto;
+	background-color: forestgreen;;
+}
+
+.golfball {
+	width: 175px;
+	height: 175px;
+	float: left;
+	margin: 1%;
+}
+
+.clear{
+	clear: left;
+}
+
+table {
+	border: 2px solid #999;
+	border-radius: 10px;
+	padding: 10px;
+	width: 700px;
+	border-spacing: 5px 5px;
+	margin: auto auto 20px auto;
+}
+
+tr:hover {
+	background-color: #c3e6e5;
+}
+
+th {
+	padding: 10px;
+	background-color: hsl(210,12.6%,50.2%);
+	letter-spacing: 0.1em;
+	text-transform: uppercase;  
+	color: white;
+	font-size: 90%;
+}
+
+.total {
+	border-top: 2px solid #111111;
+	padding: 7px;
+	background-color: hsl(210,12.6%,50.2%);
+	letter-spacing: 0.1em;
+	text-transform: uppercase;  
+	color: white;
+	font-size: 90%;
+}
+
+table.courses {
+	border-radius: 10px;
+	width: 700px;
+	margin: auto auto 20px auto;
+	border: 2px solid #999;
+	empty-cells: hide;
+	text-align: center;
+	padding: 10px;
+	border-spacing: 5px 5px;
+}
+
+footer {
+	padding: 5px;
+	clear: both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 30px;
+}
+
+fieldset {
+	margin: auto;
+	width: 500px;
+}
+
+#login {
+
+}
+
+#rating {
+	margin: auto;
+}
+
+.login {
+	font-family: "Revalia", Arial, Verdana, sans-serif;
+	font-size: 0.844em;
+	padding: 25px;
+	border-radius: 10px;
+	width: 80%;
+	margin: 800px;
+	box-shadow: inset 0 0 20px #777777;
+	border-color: silver;
+	margin-bottom: 20px
+}
+
+legend {
+	text-align: center;	
+}
+
+.comments {
+	width: 700px;
+}
+
+.rating {
+	text-align: left;
+}
+
+/* 
+
+working updates
+#outsidelinks {
+	width: 75%;
+	margin: auto auto 20px auto;
+	border-style: inset;
+	border-color: rgb(18%,54.5%,34.1%);
+	border-radius: 10px;
+	float: right;
+	width: 35%;
+	margin: 0 2% 2% 2%;
+	
+	background-size: cover;
+}
+ */

@@ -140,7 +140,7 @@ em {
 }
 
 /* Started setting up tables */
-.score, .name, definition {
+.score, .name {
 	text-align: center;
 }
 
@@ -238,7 +238,7 @@ table.courses {
 	border: 2px solid #999;
 	empty-cells: hide;
 	text-align: center;
-	padding: 10px;
+	padding: 30px;
 	border-spacing: 5px 5px;
 }
 

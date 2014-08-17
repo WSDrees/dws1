@@ -1,0 +1,167 @@
+body {
+/* Colors found from http://meyerweb.com/eric/css/colors/ */
+/* The correct order is font:font-style | font-variant | font-weight | font-size | line-height | font-family */
+/* Border color shorthand: border-top-corner | border-right-corner | border-bottom-corner | border-left-corner */
+	background-color: rgb(96.1%,96.1%,96.1%);
+}
+
+div {
+	background-color: hsl(120,73.4%,74.9%);
+	font-family: "Revalia", Arial, Verdana, sans-serif;
+	font-size: 13.5px;
+	padding: 20px;
+	border-radius: 10px;
+	width: 80%;
+	margin: auto;
+	box-shadow: inset 0 0 10px #777777;
+	border-color: silver;
+	margin-bottom: 20px;
+}
+
+/* I would have combined each of the headers into one, however, different font-sizes */
+h1 {
+	background-color: forestgreen;
+	font-family: 'Audiowide', Arial, Verdana, sans-serif;
+	font-size: 3.0em;
+	height: 1.5em;
+	color: white;
+	text-align: center;
+	border-style: outset;
+	border-color: silver silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 20px auto;
+}
+
+h2 {
+	background-color: forestgreen;
+	font-family: 'Diplomata', cursive;
+	font-size: 2.75em;
+	color: #2e2e2e;
+	text-align: center;	
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 20px auto
+}
+
+h3 {
+	background-color: forestgreen;
+	font-family: 'Diplomata', cursive;
+	font-size: 2.5em;
+	color: rgba(46, 46, 46, 1);
+	text-align: center;
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 20px auto
+}
+
+h4 {
+	background-color: forestgreen;
+	font-family: 'Diplomata', cursive;
+	font-size:2.25em;
+	color: rgb(46,46,46);
+	text-align: center;
+	border-style: inset;
+	border-color: darkolivegreen silver darkolivegreen silver;
+	width: 75%;
+	margin: auto auto 20px auto;
+}
+
+p {
+	text-align: justify;
+	color: black;
+}
+
+ol {
+	color: rgb(25,25,112);
+}
+
+ul{
+	color: rgb(25,25,112);	
+}
+
+.bodylists {
+	text-align: justify;
+	margin: auto auto 20px auto;
+}
+
+table {
+	width: 800px;
+	margin: auto auto 20px auto;
+}
+
+th {
+	background-color: hsl(210,12.6%,50.2%);
+	letter-spacing: 0.1em;
+	color: white;
+}
+
+/* link */
+a:link {
+	color: rgb(25,25,112);
+	text-decoration: none;
+}
+
+/* Visited link */
+a:visited {
+	color: grey;
+}
+
+/* When hovering over links */
+a:hover {
+	color: black;
+	text-decoration: underline;
+	text-shadow: 1px 1px 0px #000000;
+}
+
+/* active link */
+a:active {
+	color: red;
+	text-decoration: underline;
+}
+
+em {
+	color: grey;
+}
+
+#fourball, #foursome {
+	margin: auto auto 20px auto;
+}
+
+/* Started setting up tables */
+.score, .name, definition, .country, .coursenum, .percent {
+	text-align: center;
+}
+
+.article {
+	text-align: center;
+}
+
+#wikilink {
+	text-align: center;
+}
+
+.events {
+	width: 75%;
+	margin: auto;
+}
+
+.eventsinline {
+	width: 75%;
+	display: inline;
+	margin-right: 20px;
+}
+
+
+.mechanics {
+	margin: auto auto 10px auto;
+	text-align: justify;
+}
+
+#quicklinks {
+	width: 75%;
+	margin: auto auto 20px auto;
+	border-style: inset;
+	border-color: rgb(18%,54.5%,34.1%);
+}

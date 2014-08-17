@@ -86,10 +86,9 @@ aside {
 	font-size: 0.5em;
 	padding: 10px;
 	border-radius: 10px;
-	margin: auto;
+	margin: auto auto 20px auto;
 	box-shadow: inset 0 0 20px #777777;
 	border-color: silver;
-	margin-bottom: 20px;
 }
 
 #info {
